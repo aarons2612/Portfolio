@@ -1,0 +1,38 @@
+/* src/components/FloatingNavbar.css */
+.floating-navbar {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    background-color: #3498DB; /* Dark grey background color */
+    border-radius: 10px;
+    padding: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  .navbar-item {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  
+  .navbar-item:hover {
+    background-color: #7F8C8D; /* Light grey hover color */
+  }
+  
+  .navbar-item.vote {
+    background-color: #2C3E50; /* Yellow background for vote */
+    color: white; /* Black text color */
+  }
+  
+  .navbar-item.vote:hover {
+    background-color: #116eac; /* Lighter yellow hover color */
+  }
+  

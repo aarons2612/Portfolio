@@ -1,0 +1,22 @@
+.header{
+    background-color: black;
+    margin-top: -1rem;
+    display: flex;
+    width: 100%;
+    
+}
+
+.res-btn{
+    background-color: white;
+    padding: 12px;
+    margin: 0.5rem;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:740px) {
+    .header{
+        width: 100%;
+        height: 100%;
+    }
+    
+}

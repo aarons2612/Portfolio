@@ -78,9 +78,15 @@
     }
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 740px) {
     .project {
       width: 100%; /* Full width on smallest screens */
+      gap: 1rem;
+    }
+
+    .projects{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
     }
   }
   

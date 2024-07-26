@@ -97,4 +97,21 @@
       opacity: 1;
     }
   }
+
+  @media screen and (max-width:740px) {
+    .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 2rem;
+       /* Light grey background */
+      height: auto;
+    }
+    .about .right-section{
+      padding: 1rem 8.6rem;
+      padding-bottom: 3rem;
+    }
+    
+  }
   

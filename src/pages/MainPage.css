@@ -1,0 +1,35 @@
+/* src/components/MainPage.css */
+.main-page {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #F5F5F5; /* Light grey background */
+}
+
+.fade-in, .fade-out {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+@media (max-width: 600px) {
+  .home, .about {
+    flex-direction: column; /* Stack sections vertically on small screens */
+    align-items: center;
+  }
+
+  .right-section, .about .right-section {
+    margin-top: 1rem; /* Reduce margin for better spacing on small screens */
+  }
+
+  .about .left-column {
+    margin-right: 0;
+    text-align: center;
+  }
+}

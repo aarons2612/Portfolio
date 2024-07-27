@@ -1,21 +1,30 @@
 .header{
-    background-color: black;
-    margin-top: -1rem;
+    background-color: #333333;
+    margin-top: -2rem;
     display: flex;
     width: 100%;
-    
+    justify-content: right;
 }
 
 .res-btn{
-    background-color: white;
+    background-color: #F5F5F5 ;
     padding: 12px;
-    margin: 0.5rem;
+    margin: 0.8rem;
+    margin-right: 2rem;
     border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.res-btn:hover{
+    background-color: white ;
+    padding: 13px;
 }
 
 @media screen and (max-width:740px) {
     .header{
         width: 100%;
+
         height: 100%;
     }
     

@@ -1,75 +1,72 @@
-/* src/components/Home.css */
 .home {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    background-color: #E0E0E0; /* Lighter grey background */
-    height: 100vh;
-    width: 100%;
-  }
-  
-  .left-section {
-    flex: 1;
-    text-align: left; /* Center align text on small screens */
-  }
-  
-  .left-section h1 {
-    color: #333333; /* Dark grey */
-    font-size: 70px;
-  }
-  
-  .left-section p {
-    font-size: 40px;
-    color: #666666; /* Medium grey */
-  }
-  
-  .social-icons {
-    margin-top: 1rem;
-  }
-  
-  .social-icons a {
-    margin-right: 1rem;
-    font-size: 3rem;
-    color: #333333; /* Dark grey as primary icon color */
-    text-decoration: none;
-  }
-  
-  .social-icons a:hover {
-    color: #999999; /* Lighter grey as hover icon color */
-  }
-  
-  .right-section {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem; /* Add margin for better spacing on small screens */
-  }
-  
-  .image-frame {
-    width: 350px;
-    height: 350px;
-    border: 5px solid #333333; /* Dark grey border */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6); /* Dark grey glow effect */
-    overflow: hidden;
-    border-radius: 50%;
-  }
-  
-  .image-frame img {
-    width: 100%;
-    height: 100%;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #E0E0E0; /* Lighter grey background */
+  min-height: 100vh;
+  width: 100%; /* Ensures the width fits the screen */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
 
-  @media screen and (max-width:720px) {
-    .home {
-      display: flex;
+.left-section {
+  flex: 1;
+  text-align: left; /* Align text to the left */
+}
+
+.left-section h1 {
+  color: #333333; /* Dark grey */
+  font-size: 70px;
+}
+
+.left-section p {
+  font-size: 40px;
+  color: #666666; /* Medium grey */
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  margin-right: 1rem;
+  font-size: 3rem;
+  color: #333333; /* Dark grey as primary icon color */
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #999999; /* Lighter grey as hover icon color */
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem; /* Add margin for better spacing on small screens */
+}
+
+.image-frame {
+  width: 350px;
+  height: 350px;
+  border: 5px solid #333333; /* Dark grey border */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6); /* Dark grey glow effect */
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.image-frame img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 720px) {
+  .home {
       flex-direction: column;
       align-items: center;
       padding: 2rem;
-      background-color: #E0E0E0; /* Lighter grey background */
-      height: 100%;
-      width: 100%;
-    }
-    
+      height: auto; /* Adjust height for smaller screens */
+      width: 100%; /* Ensures the width fits the screen */
   }
-  
+}

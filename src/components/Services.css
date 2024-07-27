@@ -90,3 +90,14 @@
     }
   }
   
+  @media (max-width: 600px) {
+    .project {
+      width: 70%; /* Full width on smallest screens */
+      
+    }
+
+    .projects{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }

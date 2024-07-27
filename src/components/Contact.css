@@ -1,4 +1,8 @@
 /* src/components/ContactForm.css */
+.contact{
+  width: 100%;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;

@@ -42,7 +42,7 @@ const Services = () => {
               </div>
             </div>
             <div className="project-gallery">
-              <button onClick={() => handleButtonClick(project.link)}>View</button>
+              <button onClick={() => handleButtonClick(project.link)} className="btn">View</button>
             </div>
           </div>
         ))}

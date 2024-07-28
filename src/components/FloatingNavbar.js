@@ -11,7 +11,7 @@ const FloatingNavbar = () => {
     <div className="floating-navbar">
       <div className="navbar-item" onClick={() => handleScroll('home')}>Home</div>
       <div className="navbar-item" onClick={() => handleScroll('about')}>About</div>
-      <div className="navbar-item" onClick={() => handleScroll('services')}>Services</div>
+      <div className="navbar-item" onClick={() => handleScroll('services')}>Projects</div>
       <div className="navbar-item vote" onClick={() => handleScroll('contact')}>Contact</div>
       
     </div>

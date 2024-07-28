@@ -33,6 +33,7 @@ const MainPage = () => {
 
   return (
     <div className="main-page">
+      
       <Header/>
       <FloatingNavbar />
       <Home />

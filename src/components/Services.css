@@ -1,9 +1,14 @@
 /* src/components/Services.css */
 .services {
-    padding: 2rem;
     background-color: #E0E0E0; /* Lighter grey background */
     overflow-x: auto; /* Enable horizontal scroll */
     white-space: nowrap; /* Keep items in a single line */
+    height: 100vh;
+  }
+
+  h2{
+    font-size: 50px;
+    font-weight: 300;
   }
   
   .projects {

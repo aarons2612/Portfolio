@@ -1,5 +1,4 @@
-import "./Services.css"
-
+import "./Services.css";
 import React from 'react';
 
 const Services = () => {
@@ -7,29 +6,32 @@ const Services = () => {
     {
       title: 'Project 1',
       description: 'Description of project 1.',
-      imageUrl: '/project1.jpg' // Ensure this path is correct
+      imageUrl: '/project1.jpg', // Ensure this path is correct
+      link: 'https://example.com/project1' // Add the project link
     },
     {
       title: 'Project 2',
       description: 'Description of project 2.',
-      imageUrl: '/project2.jpg' // Ensure this path is correct
+      imageUrl: '/pro2.png', // Ensure this path is correct
+      link: 'https://featlogin.d3nibgonsz456v.amplifyapp.com/' // Add the project link
     },
     {
       title: 'Project 3',
       description: 'Description of project 3.',
-      imageUrl: '/project3.jpg' // Ensure this path is correct
-    },
-    {
-      title: 'Project 4',
-      description: 'Description of project 4.',
-      imageUrl: '/project4.jpg' // Ensure this path is correct
+      imageUrl: '/pro1.png', // Ensure this path is correct
+      link: 'https://zdesigners.netlify.app/' // Add the project link
     },
     // Add more projects as needed
   ];
 
+  const handleButtonClick = (link) => {
+    // Navigate to the project link
+    window.location.href = link;
+  };
+
   return (
     <div className="services fade-out" id="services">
-      <h2>Services</h2>
+      <h2>Projects</h2>
       <div className="projects">
         {projects.map((project, index) => (
           <div className="project" key={index}>
@@ -40,7 +42,7 @@ const Services = () => {
               </div>
             </div>
             <div className="project-gallery">
-              View Gallery
+              <button onClick={() => handleButtonClick(project.link)}>View</button>
             </div>
           </div>
         ))}

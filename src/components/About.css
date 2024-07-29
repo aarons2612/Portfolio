@@ -111,8 +111,8 @@ h1{
   .about {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      align-items: flex-start;
+      justify-content: center;
+      align-items: center;
       padding: 2rem;
       height: auto;
       width: 100%; /* Ensures the width fits the screen */
@@ -121,5 +121,9 @@ h1{
   .about .right-section {
       padding: 1rem 1.5rem;
       padding-bottom: 3rem;
+  }
+
+  .about .left-column{
+    
   }
 }

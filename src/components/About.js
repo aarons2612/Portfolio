@@ -9,9 +9,8 @@ const About = () => {
   return (
     <div className="about fade-out" id="about">
       <div className="left-column">
-        <h1>About</h1>
         <div className="left-section">
-          <h1>Let's Connect</h1>
+          <h1>About</h1>
           <p>
             I am a skilled React.js developer with knowledge of MongoDB and AWS. I'm good at creating scalable, effective solutions, and I work well in dynamic settings. My background involves creating user-focused web apps, placing a high value on quality, and exhibiting a dedication to lifelong learning and career advancement.
           </p>

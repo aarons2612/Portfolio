@@ -48,12 +48,13 @@
 }
 
 .image-frame {
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
   border: 5px solid #333333; /* Dark grey border */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.6); /* Dark grey glow effect */
   overflow: hidden;
   border-radius: 50%;
+  filter: grayscale(100%);
 }
 
 .image-frame img {

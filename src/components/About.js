@@ -9,6 +9,7 @@ const About = () => {
   return (
     <div className="about fade-out" id="about">
       <div className="left-column">
+        <h1>About</h1>
         <div className="left-section">
           <h1>Let's Connect</h1>
           <p>

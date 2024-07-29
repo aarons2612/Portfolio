@@ -129,10 +129,10 @@ h1 {
 
 @media (max-width: 600px) {
   .project {
-    width: 50%; /* Adjust width on smallest screens */
+    width: 70%; /* Adjust width on smallest screens */
     justify-content: center;
     align-items: center;
-    margin-left: 110px;
+    margin: 40px 50px auto;
   }
   .projects {
     display: grid;

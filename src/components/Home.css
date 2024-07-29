@@ -70,4 +70,14 @@
       height: auto; /* Adjust height for smaller screens */
       width: 100%; /* Ensures the width fits the screen */
   }
+
+  .image-frame{
+    width: 350px;
+    height: 350px;
+  }
+
+  .left-section {
+    flex: 1;
+    text-align: center; /* Align text to the left */
+  }
 }

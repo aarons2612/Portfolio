@@ -4,22 +4,25 @@ import React from 'react';
 const Services = () => {
   const projects = [
     {
-      title: 'Project 1',
-      description: 'Description of project 1.',
+      title: 'AR Book',
+      description: 'Created a Solar System using Unity',
       imageUrl: '/project1.jpg', // Ensure this path is correct
-      link: 'https://example.com/project1' // Add the project link
+      link: 'https://example.com/project1', // Add the project link
+      source: 'https://example.com/project1'
     },
     {
-      title: 'Project 2',
-      description: 'Description of project 2.',
+      title: 'Payslip App',
+      description: 'Developed a pay-slip sender.',
       imageUrl: '/pro2.png', // Ensure this path is correct
-      link: 'https://featlogin.d3nibgonsz456v.amplifyapp.com/' // Add the project link
+      link: 'https://featlogin.d3nibgonsz456v.amplifyapp.com/',
+      source:'https://featlogin.d3nibgonsz456v.amplifyapp.com/' // Add the project link
     },
     {
-      title: 'Project 3',
-      description: 'Description of project 3.',
+      title: 'Website',
+      description: 'Developed a website for Z-designers',
       imageUrl: '/pro1.png', // Ensure this path is correct
-      link: 'https://zdesigners.netlify.app/' // Add the project link
+      link: 'https://zdesigners.netlify.app/', // Add the project link
+      source:'https://github.com/aarons2612/z-designers'
     },
     // Add more projects as needed
   ];
@@ -43,6 +46,7 @@ const Services = () => {
             </div>
             <div className="project-gallery">
               <button onClick={() => handleButtonClick(project.link)} className="btn">View</button>
+              <button onClick={() => handleButtonClick(project.link)} className="btn">Source</button>
             </div>
           </div>
         ))}

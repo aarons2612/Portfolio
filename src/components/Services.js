@@ -31,7 +31,7 @@ const Services = () => {
 
   return (
     <div className="services fade-out" id="services">
-      <h2>Projects</h2>
+      <h1>Projects</h1>
       <div className="projects">
         {projects.map((project, index) => (
           <div className="project" key={index}>

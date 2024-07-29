@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { FaFacebook, FaGithub, FaHome, FaInstagram, FaMailBulk, FaPhone } from 'react-icons/fa';
 import { FaLinkedin } from "react-icons/fa6";
+import Footer from "./Footer";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -80,6 +81,7 @@ const Contact = () => {
       </form>
       </div>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -1,0 +1,15 @@
+.footer-section{
+    background-color: #333333;
+    color: #D3D3D3;
+    padding: 20px;
+    margin-top: 13rem;
+    text-align: right;
+}
+
+@media screen and (max-width:740px) {
+    .footer-section{
+        padding: 10px;
+        margin-top: 13rem;
+        text-align: center;
+    }
+}

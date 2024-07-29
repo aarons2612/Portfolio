@@ -2,6 +2,8 @@ import "./Contact.css"
 
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { FaFacebook, FaGithub, FaHome, FaInstagram, FaMailBulk, FaPhone } from 'react-icons/fa';
+import { FaLinkedin } from "react-icons/fa6";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -39,7 +41,17 @@ const Contact = () => {
 
   return (
     <div className="contact fade-out" id="contact">
-      <h2>Contact Me</h2>
+      <h1>Contact Me</h1>
+      <div className="contact-section">
+      <div className="Right-section">
+        <ul className="contact-links">
+          <li><FaPhone/>  +91 7092631585</li>
+          <li><FaMailBulk/>  aaronsimon2612@gmail.com</li>
+          <li className="icons"><FaHome/>  Tirunelveli,Tamil Nadu,India</li>
+          <li className="social-icons"><FaInstagram/> <FaGithub/> <FaFacebook/> <FaLinkedin/> </li>
+        </ul>
+      </div>
+      <div className="Left-section">
       <form className="contact-form" onSubmit={handleSubmit}>
         <input
           type="text"
@@ -66,6 +78,8 @@ const Contact = () => {
         />
         <button type="submit">Send</button>
       </form>
+      </div>
+      </div>
     </div>
   );
 };

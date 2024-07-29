@@ -1,7 +1,41 @@
-/* src/components/ContactForm.css */
 .contact{
   width: 100%;
   height: 100vh;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333333; /* Dark grey */
+  font-size: 50px;
+}
+
+.contact-section{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.Right-section ul{
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 20px;
+  
+}
+
+li{
+  list-style: none;
+  text-align: left;
+  color: #D3D3D3;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.social-icons{
+  font-size: 30px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .contact-form {
@@ -9,18 +43,11 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #ffbf69;
+    background-color: #333333;
     border-radius: 10px;
-    max-width: 500px;
     margin: 0 auto;
   }
   
-  .contact-form h2 {
-    margin-bottom: 20px;
-    font-size: 50px;
-    font-weight: 400;
-    color: #333333;
-  }
   
   .contact-form input {
     width: 100%;
@@ -41,14 +68,21 @@
   
   .contact-form button {
     padding: 10px 20px;
-    background-color: #2ec4b6;
+    background-color: #E0E0E0;
     border: none;
-    color: white;
+    color: #333333;
     border-radius: 5px;
     cursor: pointer;
   }
   
   .contact-form button:hover {
-    background-color: #cbf3f0;
+    background-color: #b1b3b2;
   }
   
+  @media screen and (max-width:740px) {
+    .contact-section{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    
+  }

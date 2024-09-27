@@ -49,7 +49,7 @@ const Contact = () => {
           <li><FaPhone/>  +91 7092631585</li>
           <li><FaMailBulk/>  aaronsimon2612@gmail.com</li>
           <li className="icons"><FaHome/>  Tirunelveli,Tamil Nadu,India</li>
-          <li className="social-icons"><FaInstagram/> <FaGithub/> <FaFacebook/> <FaLinkedin/> </li>
+          <li className="social-icon"><FaInstagram/> <FaGithub/> <FaFacebook/> <FaLinkedin/> </li>
         </ul>
       </div>
       <div className="Left-section">

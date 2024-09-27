@@ -32,10 +32,10 @@ li{
   margin-bottom: 20px;
 }
 
-.social-icons{
+.social-icon{
   font-size: 30px;
   display: flex;
-  justify-content: space-evenly;
+  gap: 20px;
 }
 
 .contact-form {

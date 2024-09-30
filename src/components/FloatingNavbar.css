@@ -1,4 +1,9 @@
 /* src/components/FloatingNavbar.css */
+
+html {
+  scroll-behavior: smooth;
+}
+
 .floating-navbar {
     position: fixed;
     bottom: 20px;

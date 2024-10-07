@@ -24,13 +24,21 @@ const Services = () => {
       link: 'https://zdesigners.netlify.app/', // Add the project link
       source:'https://github.com/aarons2612/z-designers'
     },
+    {
+      title: 'Website',
+      description: 'Developed a website for Myself',
+      imageUrl: '/pro3.png', // Ensure this path is correct
+      link: 'https://aaronsimon-portfolio.netlify.app/', // Add the project link
+      source:'https://github.com/aarons2612/portfolio'
+    },
     // Add more projects as needed
   ];
 
   const handleButtonClick = (link) => {
-    // Navigate to the project link
-    window.location.href = link;
+    // Open the link in a new tab
+    window.open(link, '_blank');
   };
+  
 
   return (
     <div className="services fade-out" id="services">
@@ -46,7 +54,7 @@ const Services = () => {
             </div>
             <div className="project-gallery">
               <button onClick={() => handleButtonClick(project.link)} className="btn">View</button>
-              <button onClick={() => handleButtonClick(project.link)} className="btn">Source</button>
+              <button onClick={() => handleButtonClick(project.source)} className="btn">Source</button>
             </div>
           </div>
         ))}

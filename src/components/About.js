@@ -18,7 +18,7 @@ const About = () => {
         <div className="left-section2">
           <h2>Work Experience</h2>
           <ul>
-            <li>Software Developer Intern at SkillRank (Mar 2024 - Present)</li>
+            <li>Software Developer Intern at SkillRank (Mar 2024 - Jul 2024)</li>
             <li>Summer Intern at Digisailor (Jun 2023)</li>
           </ul>
         </div>

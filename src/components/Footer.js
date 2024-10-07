@@ -5,7 +5,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="footer-section"><FaCopyright/>  AARON, all rigits reserved</div>
+    <div className="footer-section"><FaCopyright/>  2024, all rights reserved</div>
   )
 }
 
